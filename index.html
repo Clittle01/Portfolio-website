@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/> 
+
+</head>
+<body>
+    
+<nav id="desktop-nav">
+    <div class="logo"> Carlos Little</div>
+    <div?>
+        <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo"> Carlos Little</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon"  onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#About" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="./assets/profile-pic.JPG" alt=" Carlos Little Profile profile-pic "/>
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">
+            Hi! I'm </p>
+            <h1 class="Ttile"> Carlos Little</h1>
+            <p class="section__text__p2">Computer Information System Major</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')"> Download resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#Contact'"> Contact infor
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My linkedin profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/carlos-little/' ">
+
+            </div>
+    </div>
+</section>
+<section id="projects">
+    <h2>Projects</h2>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Technologies</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>Project 1</td>
+            <td>A simple website</td>
+            <td>HTML, CSS</td>
+            <td><a href="#">View</a></td>
+        </tr>
+        <tr>
+            <td>Project 2</td>
+            <td>Music Player</td>
+            <td>Java, JavaScript, PHP</td>
+            <td><a href="#">View</a></td>
+        </tr>
+        <tr>
+            <td>Project 3</td>
+            <td>Database</td>
+            <td>HTML, CSS, JavaScript, Node.js, Java, MongoDB</td>
+            <td><a href="#">View</a></td>
+        </tr>
+    </table>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
