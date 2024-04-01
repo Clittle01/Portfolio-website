@@ -11,7 +11,12 @@
 <body>
     
 <nav id="desktop-nav">
-    <div class="logo"> Carlos Little</div>
+    <div class="loader">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+      </div>
+      <div class="logo"> Personal Portfolio</div>
     <div?>
         <ul class="nav-links">
             <li><a href="#About">About</a></li>
@@ -47,47 +52,76 @@
             <h1 class="Ttile"> Carlos Little</h1>
             <p class="section__text__p2">Computer Information System Major</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')"> Download resume
+                <button
+                 class="btn btn-color-2"
+                 onclick="window.open('./assets/resume.pdf')"> Download resume
                 </button>
-                <button class="btn btn-color-1" onclick="location.href='./#Contact'"> Contact infor
+                <button 
+                class="btn btn-color-1"
+                 onclick="location.href='./#Contact'"> Contact Information
                 </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My linkedin profile"
-                class="icon" onclick="location.href='https://www.linkedin.com/in/carlos-little/' ">
+                <img 
+                src="./assets/linkedin.png" 
+                alt="My linkedin profile"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/clittle01/' "/>
+
+                <img 
+                src="./assets/github.png" 
+                alt="My Github profile"
+                class="icon" 
+                onclick="location.href='https://github.com/Clittle01'"/>
 
             </div>
     </div>
 </section>
-<section id="projects">
-    <h2>Projects</h2>
-    <table>
-        <tr>
-            <th>Project</th>
-            <th>Description</th>
-            <th>Technologies</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>Project 1</td>
-            <td>A simple website</td>
-            <td>HTML, CSS</td>
-            <td><a href="#">View</a></td>
-        </tr>
-        <tr>
-            <td>Project 2</td>
-            <td>Music Player</td>
-            <td>Java, JavaScript, PHP</td>
-            <td><a href="#">View</a></td>
-        </tr>
-        <tr>
-            <td>Project 3</td>
-            <td>Database</td>
-            <td>HTML, CSS, JavaScript, Node.js, Java, MongoDB</td>
-            <td><a href="#">View</a></td>
-        </tr>
-    </table>
+<section id="About">
+    <p class="section__text__p1"> Get to know more!</p>
+    <h1 class="title"> About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img src="assets/about-pic.jpg" 
+            alt="Profile picture" 
+            class="about-pic" 
+            />
+         </div>
+         <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="assets/experience.png" 
+                    alt="experience"
+                    class="icon"/>
+                    <h3> Experience</h3>
+                    <p>1 year <br> Web Development </p>
+                </div>
+                <div class="details-container">
+                    <img src="assets/education.jpg" 
+                    alt="Educataion icon" 
+                    class="icon" 
+            />
+            <h3> Educataion</h3>
+            <p>B.Sc Bachelors Degree <br></p>
+
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, voluptatibus eum? Atque quisquam pariatur nam est dolor, corrupti optio accusamus, fugiat itaque ab nisi vitae aut error velit nihil molestiae sed quidem laborum officiis nostrum, assumenda suscipit repellat corporis. Nisi possimus fuga asperiores deserunt perferendis voluptatum labore distinctio laudantium nesciunt!
+                </p>
+            </div>
+         </div>
+    </div>
+
+    <img src="assets/arrow.png"
+     alt="Arrow icon"
+     class="icon arrow"
+     onclick="location.href='./#Experience'"
+     />
+
 </section>
+
     <script src="script.js"></script>
 </body>
 </html>
