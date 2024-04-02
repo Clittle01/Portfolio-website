@@ -235,7 +235,7 @@ background: rgb(5, 5, 5);
     width: 112px;
     height: 112px;
   }
-  
+  /*  The loader on the top */
   .box1,
   .box2,
   .box3 {
@@ -468,7 +468,7 @@ background: rgb(5, 5, 5);
   #about{
     position: relative;
   }
-  .about-container{
+  .about-containers{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -481,9 +481,8 @@ background: rgb(5, 5, 5);
   .about-details-container{
     display: flex;
   }
-  .about-pic{
-    border-radius: -200%;
-    width: 2000px;
+  .about-pic {
+    border-radius: 2rem;
   }
   .arrow{
     position: absolute;
