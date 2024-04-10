@@ -157,11 +157,9 @@ section{
    
 }
 .section__pic-container{
-    border-radius: 0%;
-    overflow: hidden;
     display: flex;
-    height: 410px;
-    width: 700px;
+    height: 400px;
+    width: 400px;
     margin: auto 0;
 }
 .section__text{
@@ -472,6 +470,10 @@ background: rgb(5, 5, 5);
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
   }
   .about-details-container{
     justify-content: center;
@@ -482,11 +484,99 @@ background: rgb(5, 5, 5);
     display: flex;
   }
   .about-pic{
+<<<<<<< Updated upstream
     border-radius: -200%;
     width: 2000px;
   }
+=======
+    border-radius: 2rem;
+  }
+  
+>>>>>>> Stashed changes
   .arrow{
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
+<<<<<<< Updated upstream
+=======
+  }
+
+  .details-container{
+    padding: 1.5rem;
+    flex: 1rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(128, 128, 128) 0.1rem solid;
+    border-color: #000000;
+ text-align: center;
+    
+    
+  }
+  .section-container{
+    gap: 4rem;
+    height: 80%;
+
+  
+  }
+
+  .section__pic-container{
+    height: 400px;
+    width: 600px;
+    margin: auto 0;
+
+  }
+  /* experience*/
+  #experience{
+    position: relative;
+  }
+  .experience-sub-title{
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
+  article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
+
+  article .icon{
+    cursor: default;
+  }
+  /* projects section*/
+  #Projects {
+    position: absolute;
+  }
+  .color-container{
+    border-color: rgb(128, 128, 128);
+    background: #f5f5f5;
+  }
+  .project-img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+  .project-title{
+    margin: 1rem;
+    color: black;
+  }
+  .project-btn{
+    color: black;
+    border-color: rgb(128, 128, 128);
+>>>>>>> Stashed changes
   }
